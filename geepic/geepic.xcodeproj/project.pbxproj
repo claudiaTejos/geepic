@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182667B61BCDD6DE009CCD4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182667B51BCDD6DE009CCD4F /* AppDelegate.swift */; };
+		182667B81BCDD6DE009CCD4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182667B71BCDD6DE009CCD4F /* ViewController.swift */; };
+		182667BB1BCDD6DE009CCD4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182667B91BCDD6DE009CCD4F /* Main.storyboard */; };
+		182667BD1BCDD6DE009CCD4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182667BC1BCDD6DE009CCD4F /* Assets.xcassets */; };
+		182667C01BCDD6DE009CCD4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182667BE1BCDD6DE009CCD4F /* LaunchScreen.storyboard */; };
+		182667CB1BCDD6DE009CCD4F /* geepicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182667CA1BCDD6DE009CCD4F /* geepicTests.swift */; };
+		182667D61BCDD6DE009CCD4F /* geepicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182667D51BCDD6DE009CCD4F /* geepicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182667C71BCDD6DE009CCD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182667AA1BCDD6DE009CCD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182667B11BCDD6DE009CCD4F;
+			remoteInfo = geepic;
+		};
+		182667D21BCDD6DE009CCD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182667AA1BCDD6DE009CCD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182667B11BCDD6DE009CCD4F;
+			remoteInfo = geepic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182667B21BCDD6DE009CCD4F /* geepic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geepic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182667B51BCDD6DE009CCD4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182667B71BCDD6DE009CCD4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182667BA1BCDD6DE009CCD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182667BC1BCDD6DE009CCD4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182667BF1BCDD6DE009CCD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182667C11BCDD6DE009CCD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182667C61BCDD6DE009CCD4F /* geepicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geepicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182667CA1BCDD6DE009CCD4F /* geepicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geepicTests.swift; sourceTree = "<group>"; };
+		182667CC1BCDD6DE009CCD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182667D11BCDD6DE009CCD4F /* geepicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geepicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182667D51BCDD6DE009CCD4F /* geepicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geepicUITests.swift; sourceTree = "<group>"; };
+		182667D71BCDD6DE009CCD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182667AF1BCDD6DE009CCD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182667C31BCDD6DE009CCD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182667CE1BCDD6DE009CCD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182667A91BCDD6DE009CCD4F = {
+			isa = PBXGroup;
+			children = (
+				182667B41BCDD6DE009CCD4F /* geepic */,
+				182667C91BCDD6DE009CCD4F /* geepicTests */,
+				182667D41BCDD6DE009CCD4F /* geepicUITests */,
+				182667B31BCDD6DE009CCD4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182667B31BCDD6DE009CCD4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182667B21BCDD6DE009CCD4F /* geepic.app */,
+				182667C61BCDD6DE009CCD4F /* geepicTests.xctest */,
+				182667D11BCDD6DE009CCD4F /* geepicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182667B41BCDD6DE009CCD4F /* geepic */ = {
+			isa = PBXGroup;
+			children = (
+				182667B51BCDD6DE009CCD4F /* AppDelegate.swift */,
+				182667B71BCDD6DE009CCD4F /* ViewController.swift */,
+				182667B91BCDD6DE009CCD4F /* Main.storyboard */,
+				182667BC1BCDD6DE009CCD4F /* Assets.xcassets */,
+				182667BE1BCDD6DE009CCD4F /* LaunchScreen.storyboard */,
+				182667C11BCDD6DE009CCD4F /* Info.plist */,
+			);
+			path = geepic;
+			sourceTree = "<group>";
+		};
+		182667C91BCDD6DE009CCD4F /* geepicTests */ = {
+			isa = PBXGroup;
+			children = (
+				182667CA1BCDD6DE009CCD4F /* geepicTests.swift */,
+				182667CC1BCDD6DE009CCD4F /* Info.plist */,
+			);
+			path = geepicTests;
+			sourceTree = "<group>";
+		};
+		182667D41BCDD6DE009CCD4F /* geepicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				182667D51BCDD6DE009CCD4F /* geepicUITests.swift */,
+				182667D71BCDD6DE009CCD4F /* Info.plist */,
+			);
+			path = geepicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182667B11BCDD6DE009CCD4F /* geepic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182667DA1BCDD6DE009CCD4F /* Build configuration list for PBXNativeTarget "geepic" */;
+			buildPhases = (
+				182667AE1BCDD6DE009CCD4F /* Sources */,
+				182667AF1BCDD6DE009CCD4F /* Frameworks */,
+				182667B01BCDD6DE009CCD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geepic;
+			productName = geepic;
+			productReference = 182667B21BCDD6DE009CCD4F /* geepic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182667C51BCDD6DE009CCD4F /* geepicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182667DD1BCDD6DE009CCD4F /* Build configuration list for PBXNativeTarget "geepicTests" */;
+			buildPhases = (
+				182667C21BCDD6DE009CCD4F /* Sources */,
+				182667C31BCDD6DE009CCD4F /* Frameworks */,
+				182667C41BCDD6DE009CCD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182667C81BCDD6DE009CCD4F /* PBXTargetDependency */,
+			);
+			name = geepicTests;
+			productName = geepicTests;
+			productReference = 182667C61BCDD6DE009CCD4F /* geepicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182667D01BCDD6DE009CCD4F /* geepicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182667E01BCDD6DE009CCD4F /* Build configuration list for PBXNativeTarget "geepicUITests" */;
+			buildPhases = (
+				182667CD1BCDD6DE009CCD4F /* Sources */,
+				182667CE1BCDD6DE009CCD4F /* Frameworks */,
+				182667CF1BCDD6DE009CCD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182667D31BCDD6DE009CCD4F /* PBXTargetDependency */,
+			);
+			name = geepicUITests;
+			productName = geepicUITests;
+			productReference = 182667D11BCDD6DE009CCD4F /* geepicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182667AA1BCDD6DE009CCD4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ramon Honorio";
+				TargetAttributes = {
+					182667B11BCDD6DE009CCD4F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					182667C51BCDD6DE009CCD4F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 182667B11BCDD6DE009CCD4F;
+					};
+					182667D01BCDD6DE009CCD4F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 182667B11BCDD6DE009CCD4F;
+					};
+				};
+			};
+			buildConfigurationList = 182667AD1BCDD6DE009CCD4F /* Build configuration list for PBXProject "geepic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182667A91BCDD6DE009CCD4F;
+			productRefGroup = 182667B31BCDD6DE009CCD4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182667B11BCDD6DE009CCD4F /* geepic */,
+				182667C51BCDD6DE009CCD4F /* geepicTests */,
+				182667D01BCDD6DE009CCD4F /* geepicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182667B01BCDD6DE009CCD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182667C01BCDD6DE009CCD4F /* LaunchScreen.storyboard in Resources */,
+				182667BD1BCDD6DE009CCD4F /* Assets.xcassets in Resources */,
+				182667BB1BCDD6DE009CCD4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182667C41BCDD6DE009CCD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182667CF1BCDD6DE009CCD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182667AE1BCDD6DE009CCD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182667B81BCDD6DE009CCD4F /* ViewController.swift in Sources */,
+				182667B61BCDD6DE009CCD4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182667C21BCDD6DE009CCD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182667CB1BCDD6DE009CCD4F /* geepicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182667CD1BCDD6DE009CCD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182667D61BCDD6DE009CCD4F /* geepicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182667C81BCDD6DE009CCD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182667B11BCDD6DE009CCD4F /* geepic */;
+			targetProxy = 182667C71BCDD6DE009CCD4F /* PBXContainerItemProxy */;
+		};
+		182667D31BCDD6DE009CCD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182667B11BCDD6DE009CCD4F /* geepic */;
+			targetProxy = 182667D21BCDD6DE009CCD4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182667B91BCDD6DE009CCD4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182667BA1BCDD6DE009CCD4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182667BE1BCDD6DE009CCD4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182667BF1BCDD6DE009CCD4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182667D81BCDD6DE009CCD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182667D91BCDD6DE009CCD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182667DB1BCDD6DE009CCD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = geepic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BEPiD.geepic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		182667DC1BCDD6DE009CCD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = geepic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BEPiD.geepic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		182667DE1BCDD6DE009CCD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = geepicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BEPiD.geepicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geepic.app/geepic";
+			};
+			name = Debug;
+		};
+		182667DF1BCDD6DE009CCD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = geepicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BEPiD.geepicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geepic.app/geepic";
+			};
+			name = Release;
+		};
+		182667E11BCDD6DE009CCD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = geepicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BEPiD.geepicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = geepic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		182667E21BCDD6DE009CCD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = geepicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BEPiD.geepicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = geepic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182667AD1BCDD6DE009CCD4F /* Build configuration list for PBXProject "geepic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182667D81BCDD6DE009CCD4F /* Debug */,
+				182667D91BCDD6DE009CCD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182667DA1BCDD6DE009CCD4F /* Build configuration list for PBXNativeTarget "geepic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182667DB1BCDD6DE009CCD4F /* Debug */,
+				182667DC1BCDD6DE009CCD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		182667DD1BCDD6DE009CCD4F /* Build configuration list for PBXNativeTarget "geepicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182667DE1BCDD6DE009CCD4F /* Debug */,
+				182667DF1BCDD6DE009CCD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		182667E01BCDD6DE009CCD4F /* Build configuration list for PBXNativeTarget "geepicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182667E11BCDD6DE009CCD4F /* Debug */,
+				182667E21BCDD6DE009CCD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182667AA1BCDD6DE009CCD4F /* Project object */;
+}
