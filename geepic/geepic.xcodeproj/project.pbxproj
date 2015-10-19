@@ -8,12 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		182667B61BCDD6DE009CCD4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182667B51BCDD6DE009CCD4F /* AppDelegate.swift */; };
-		182667B81BCDD6DE009CCD4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182667B71BCDD6DE009CCD4F /* ViewController.swift */; };
 		182667BB1BCDD6DE009CCD4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182667B91BCDD6DE009CCD4F /* Main.storyboard */; };
 		182667BD1BCDD6DE009CCD4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182667BC1BCDD6DE009CCD4F /* Assets.xcassets */; };
 		182667C01BCDD6DE009CCD4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182667BE1BCDD6DE009CCD4F /* LaunchScreen.storyboard */; };
 		182667CB1BCDD6DE009CCD4F /* geepicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182667CA1BCDD6DE009CCD4F /* geepicTests.swift */; };
 		182667D61BCDD6DE009CCD4F /* geepicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182667D51BCDD6DE009CCD4F /* geepicUITests.swift */; };
+		18BD84F91BD28CC3008C29D4 /* EventsFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD84F81BD28CC3008C29D4 /* EventsFeedTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		18BD84FB1BD28E10008C29D4 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD84FA1BD28E10008C29D4 /* EventTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		18BD85001BD29BF6008C29D4 /* PhotosFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD84FF1BD29BF6008C29D4 /* PhotosFeedTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		18BD85021BD29C0D008C29D4 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD85011BD29C0D008C29D4 /* PhotoTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		18D661971BD04E7500CEEAC1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D661951BD04E7500CEEAC1 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		18D661981BD04E7500CEEAC1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D661961BD04E7500CEEAC1 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		18D661A31BD04EBF00CEEAC1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6619A1BD04EBF00CEEAC1 /* AudioToolbox.framework */; };
+		18D661A41BD04EBF00CEEAC1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6619B1BD04EBF00CEEAC1 /* CFNetwork.framework */; };
+		18D661A51BD04EBF00CEEAC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6619C1BD04EBF00CEEAC1 /* CoreGraphics.framework */; };
+		18D661A61BD04EBF00CEEAC1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6619D1BD04EBF00CEEAC1 /* CoreLocation.framework */; };
+		18D661A71BD04EBF00CEEAC1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6619E1BD04EBF00CEEAC1 /* libsqlite3.tbd */; };
+		18D661A81BD04EBF00CEEAC1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6619F1BD04EBF00CEEAC1 /* libz.tbd */; };
+		18D661A91BD04EBF00CEEAC1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D661A01BD04EBF00CEEAC1 /* QuartzCore.framework */; };
+		18D661AA1BD04EBF00CEEAC1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D661A11BD04EBF00CEEAC1 /* Security.framework */; };
+		18D661AB1BD04EBF00CEEAC1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D661A21BD04EBF00CEEAC1 /* SystemConfiguration.framework */; };
+		18D661AE1BD04FB600CEEAC1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D661AD1BD04FB600CEEAC1 /* SignUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		18D661B01BD04FD400CEEAC1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D661AF1BD04FD400CEEAC1 /* StartViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		18D661B21BD0501200CEEAC1 /* SignUp2ndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D661B11BD0501200CEEAC1 /* SignUp2ndViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		18D661BB1BD0508D00CEEAC1 /* PostPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D661BA1BD0508D00CEEAC1 /* PostPhotoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		18D661BD1BD0509800CEEAC1 /* PostChooseEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D661BC1BD0509800CEEAC1 /* PostChooseEventViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		18D661BF1BD0541300CEEAC1 /* DAOUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D661BE1BD0541300CEEAC1 /* DAOUsuario.swift */; settings = {ASSET_TAGS = (); }; };
+		18D661C21BD0542B00CEEAC1 /* DAOEvento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D661C11BD0542B00CEEAC1 /* DAOEvento.swift */; settings = {ASSET_TAGS = (); }; };
+		18D661C41BD0544A00CEEAC1 /* DAOPublicacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D661C31BD0544A00CEEAC1 /* DAOPublicacao.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +58,6 @@
 /* Begin PBXFileReference section */
 		182667B21BCDD6DE009CCD4F /* geepic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geepic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182667B51BCDD6DE009CCD4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		182667B71BCDD6DE009CCD4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		182667BA1BCDD6DE009CCD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182667BC1BCDD6DE009CCD4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182667BF1BCDD6DE009CCD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +68,29 @@
 		182667D11BCDD6DE009CCD4F /* geepicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geepicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182667D51BCDD6DE009CCD4F /* geepicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geepicUITests.swift; sourceTree = "<group>"; };
 		182667D71BCDD6DE009CCD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BD84F81BD28CC3008C29D4 /* EventsFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsFeedTableViewController.swift; sourceTree = "<group>"; };
+		18BD84FA1BD28E10008C29D4 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		18BD84FF1BD29BF6008C29D4 /* PhotosFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosFeedTableViewController.swift; sourceTree = "<group>"; };
+		18BD85011BD29C0D008C29D4 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		18D661951BD04E7500CEEAC1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		18D661961BD04E7500CEEAC1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		18D6619A1BD04EBF00CEEAC1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18D6619B1BD04EBF00CEEAC1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18D6619C1BD04EBF00CEEAC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18D6619D1BD04EBF00CEEAC1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18D6619E1BD04EBF00CEEAC1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		18D6619F1BD04EBF00CEEAC1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18D661A01BD04EBF00CEEAC1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18D661A11BD04EBF00CEEAC1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18D661A21BD04EBF00CEEAC1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18D661AD1BD04FB600CEEAC1 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		18D661AF1BD04FD400CEEAC1 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		18D661B11BD0501200CEEAC1 /* SignUp2ndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp2ndViewController.swift; sourceTree = "<group>"; };
+		18D661BA1BD0508D00CEEAC1 /* PostPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostPhotoViewController.swift; sourceTree = "<group>"; };
+		18D661BC1BD0509800CEEAC1 /* PostChooseEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostChooseEventViewController.swift; sourceTree = "<group>"; };
+		18D661BE1BD0541300CEEAC1 /* DAOUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOUsuario.swift; sourceTree = "<group>"; };
+		18D661C11BD0542B00CEEAC1 /* DAOEvento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOEvento.swift; sourceTree = "<group>"; };
+		18D661C31BD0544A00CEEAC1 /* DAOPublicacao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOPublicacao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D661A31BD04EBF00CEEAC1 /* AudioToolbox.framework in Frameworks */,
+				18D661A41BD04EBF00CEEAC1 /* CFNetwork.framework in Frameworks */,
+				18D661A51BD04EBF00CEEAC1 /* CoreGraphics.framework in Frameworks */,
+				18D661A61BD04EBF00CEEAC1 /* CoreLocation.framework in Frameworks */,
+				18D661A71BD04EBF00CEEAC1 /* libsqlite3.tbd in Frameworks */,
+				18D661A81BD04EBF00CEEAC1 /* libz.tbd in Frameworks */,
+				18D661A91BD04EBF00CEEAC1 /* QuartzCore.framework in Frameworks */,
+				18D661AA1BD04EBF00CEEAC1 /* Security.framework in Frameworks */,
+				18D661AB1BD04EBF00CEEAC1 /* SystemConfiguration.framework in Frameworks */,
+				18D661981BD04E7500CEEAC1 /* Parse.framework in Frameworks */,
+				18D661971BD04E7500CEEAC1 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +132,7 @@
 		182667A91BCDD6DE009CCD4F = {
 			isa = PBXGroup;
 			children = (
+				18D661991BD04E7C00CEEAC1 /* Frameworks */,
 				182667B41BCDD6DE009CCD4F /* geepic */,
 				182667C91BCDD6DE009CCD4F /* geepicTests */,
 				182667D41BCDD6DE009CCD4F /* geepicUITests */,
@@ -98,7 +154,8 @@
 			isa = PBXGroup;
 			children = (
 				182667B51BCDD6DE009CCD4F /* AppDelegate.swift */,
-				182667B71BCDD6DE009CCD4F /* ViewController.swift */,
+				18D661C01BD0541600CEEAC1 /* Database */,
+				18D661AC1BD04F9B00CEEAC1 /* View Controllers */,
 				182667B91BCDD6DE009CCD4F /* Main.storyboard */,
 				182667BC1BCDD6DE009CCD4F /* Assets.xcassets */,
 				182667BE1BCDD6DE009CCD4F /* LaunchScreen.storyboard */,
@@ -123,6 +180,82 @@
 				182667D71BCDD6DE009CCD4F /* Info.plist */,
 			);
 			path = geepicUITests;
+			sourceTree = "<group>";
+		};
+		18BD84FC1BD28E1A008C29D4 /* Events Feed */ = {
+			isa = PBXGroup;
+			children = (
+				18BD84FA1BD28E10008C29D4 /* EventTableViewCell.swift */,
+				18BD84F81BD28CC3008C29D4 /* EventsFeedTableViewController.swift */,
+			);
+			name = "Events Feed";
+			sourceTree = "<group>";
+		};
+		18BD85031BD29C11008C29D4 /* Photos Feed */ = {
+			isa = PBXGroup;
+			children = (
+				18BD84FF1BD29BF6008C29D4 /* PhotosFeedTableViewController.swift */,
+				18BD85011BD29C0D008C29D4 /* PhotoTableViewCell.swift */,
+			);
+			name = "Photos Feed";
+			sourceTree = "<group>";
+		};
+		18BD85041BD29C26008C29D4 /* Posting a new photo */ = {
+			isa = PBXGroup;
+			children = (
+				18D661BA1BD0508D00CEEAC1 /* PostPhotoViewController.swift */,
+				18D661BC1BD0509800CEEAC1 /* PostChooseEventViewController.swift */,
+			);
+			name = "Posting a new photo";
+			sourceTree = "<group>";
+		};
+		18D661991BD04E7C00CEEAC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D6619A1BD04EBF00CEEAC1 /* AudioToolbox.framework */,
+				18D6619B1BD04EBF00CEEAC1 /* CFNetwork.framework */,
+				18D6619C1BD04EBF00CEEAC1 /* CoreGraphics.framework */,
+				18D6619D1BD04EBF00CEEAC1 /* CoreLocation.framework */,
+				18D6619E1BD04EBF00CEEAC1 /* libsqlite3.tbd */,
+				18D6619F1BD04EBF00CEEAC1 /* libz.tbd */,
+				18D661A01BD04EBF00CEEAC1 /* QuartzCore.framework */,
+				18D661A11BD04EBF00CEEAC1 /* Security.framework */,
+				18D661A21BD04EBF00CEEAC1 /* SystemConfiguration.framework */,
+				18D661951BD04E7500CEEAC1 /* Bolts.framework */,
+				18D661961BD04E7500CEEAC1 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18D661AC1BD04F9B00CEEAC1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18D661AF1BD04FD400CEEAC1 /* StartViewController.swift */,
+				18D661B31BD0501600CEEAC1 /* SignUp View Controllers */,
+				18BD84FC1BD28E1A008C29D4 /* Events Feed */,
+				18BD85031BD29C11008C29D4 /* Photos Feed */,
+				18BD85041BD29C26008C29D4 /* Posting a new photo */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		18D661B31BD0501600CEEAC1 /* SignUp View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18D661AD1BD04FB600CEEAC1 /* SignUpViewController.swift */,
+				18D661B11BD0501200CEEAC1 /* SignUp2ndViewController.swift */,
+			);
+			name = "SignUp View Controllers";
+			sourceTree = "<group>";
+		};
+		18D661C01BD0541600CEEAC1 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				18D661BE1BD0541300CEEAC1 /* DAOUsuario.swift */,
+				18D661C11BD0542B00CEEAC1 /* DAOEvento.swift */,
+				18D661C31BD0544A00CEEAC1 /* DAOPublicacao.swift */,
+			);
+			name = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +388,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182667B81BCDD6DE009CCD4F /* ViewController.swift in Sources */,
+				18BD84FB1BD28E10008C29D4 /* EventTableViewCell.swift in Sources */,
+				18D661AE1BD04FB600CEEAC1 /* SignUpViewController.swift in Sources */,
+				18BD85001BD29BF6008C29D4 /* PhotosFeedTableViewController.swift in Sources */,
+				18D661C21BD0542B00CEEAC1 /* DAOEvento.swift in Sources */,
+				18D661B21BD0501200CEEAC1 /* SignUp2ndViewController.swift in Sources */,
+				18D661C41BD0544A00CEEAC1 /* DAOPublicacao.swift in Sources */,
+				18D661BF1BD0541300CEEAC1 /* DAOUsuario.swift in Sources */,
+				18D661B01BD04FD400CEEAC1 /* StartViewController.swift in Sources */,
+				18D661BB1BD0508D00CEEAC1 /* PostPhotoViewController.swift in Sources */,
+				18D661BD1BD0509800CEEAC1 /* PostChooseEventViewController.swift in Sources */,
+				18BD85021BD29C0D008C29D4 /* PhotoTableViewCell.swift in Sources */,
 				182667B61BCDD6DE009CCD4F /* AppDelegate.swift in Sources */,
+				18BD84F91BD28CC3008C29D4 /* EventsFeedTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +542,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = geepic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BEPiD.geepic;
@@ -409,6 +557,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = geepic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BEPiD.geepic;
@@ -483,6 +635,7 @@
 				182667DC1BCDD6DE009CCD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182667DD1BCDD6DE009CCD4F /* Build configuration list for PBXNativeTarget "geepicTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +644,7 @@
 				182667DF1BCDD6DE009CCD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182667E01BCDD6DE009CCD4F /* Build configuration list for PBXNativeTarget "geepicUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +653,7 @@
 				182667E21BCDD6DE009CCD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
